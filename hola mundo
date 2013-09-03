@@ -1,0 +1,11 @@
+#include "stdafx.h"
+#include "math.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+int main()
+{	cout<<"hola mundo";
+	getch();
+	return 0;
+}
