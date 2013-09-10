@@ -1,0 +1,20 @@
+#include "stdafx.h"
+#include "math.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+int main()
+{
+float ventames1,ventames2,ventames3,ingresototal; 
+cout<<"ingreso el mes1:";
+cin>>ventames1;
+cout<<"ingreso el mes2:";
+cin>>ventames2;
+cout<<"ingreso el mes3:";
+cin>>ventames3;
+ingresototal=(ventames1+ventames2+ventames3)*4.0;
+cout<<"ingreso total por mes ;"<<ingresototal;
+getch();
+	return 0;
+}
